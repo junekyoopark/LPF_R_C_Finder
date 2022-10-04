@@ -14,9 +14,6 @@ resistor_list = [
     1000, 2000, 4700, 10000, 100000, 1000000, 10000000
 ]
 
-capacitance = capacitor_list[0]
-resistance = resistor_list[0]
-
 f_cutoff_result_list = []
 
 # f_cutoff_equation = 1/(2* math.pi * capacitance * resistance)
