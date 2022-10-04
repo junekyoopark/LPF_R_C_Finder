@@ -22,7 +22,7 @@ for capacitance in capacitor_list:
         f_cutoff_result = 1/(2* math.pi * capacitance * capacitor_multiplier * resistance)
         f_cutoff_result_list.append(f_cutoff_result)
 
-f_cutoff_goal = 250
+f_cutoff_goal = 262
 f_cutoff_result_list.sort()
 
 f_cutoff_best = min([i for i in f_cutoff_result_list if f_cutoff_goal < i])
