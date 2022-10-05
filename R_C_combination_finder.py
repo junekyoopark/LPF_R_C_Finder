@@ -26,7 +26,7 @@ f_cutoff_goal = 262
 f_cutoff_result_list.sort()
 
 f_cutoff_best = min([i for i in f_cutoff_result_list if f_cutoff_goal <= i])
-print("Lowest possible cut-off frequency above cut-off frequency goal of " + str(f_cutoff_goal) + "Hz: " + str(f_cutoff_best) + "Hz")
+print("Lowest possible cut-off frequency above or equal to cut-off frequency goal of " + str(f_cutoff_goal) + "Hz: " + str(f_cutoff_best) + "Hz")
 
 for capacitance in capacitor_list:
     for resistance in resistor_list:
